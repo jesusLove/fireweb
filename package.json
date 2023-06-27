@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "fireWeb",
   "author": "繁华&落尽",
-  "scripts": {},
+  "scripts": {
+    "docs:dev": "pnpm run -C docs docs:dev",
+    "docs:build": "pnpm run -C docs docs:build"
+  },
   "keywords": [],
   "license": "MIT",
   "dependencies": {

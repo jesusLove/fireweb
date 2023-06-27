@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Web 面试指南",
   head: [["link", { rel: "icon", href: "/images/logo.svg" }]],
   themeConfig: {
-    logo: "/images/logo.png",
+    logo: "/images/logo.svg",
     nav: nav(),
     sidebar: {
       "/content/": sidebarGuide(),
